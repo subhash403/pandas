@@ -39,3 +39,15 @@ print(df.dropna())
 # If you want to drop the Entire Column you can use df.dropna(axis=1) then it will delete the entire column
 #df.value_counts()
 print(df.corr())
+
+#Describe gives calculations like  mean std min and percentages
+print(df.describe())
+
+# df.describe(include=['object'])
+#df.describe(include=['all])
+
+# Before comma is row and after comma is column
+#df.iloc(row,col)
+#df.loc(row,col)
+
+# loc is for location and iloc is for indexed location
