@@ -15,3 +15,6 @@ Advantages:
     merge, concatenate, reshape
 
 
+##### pd.date_range(date,period,frequency)
+For Frequency we can give the Day D Month M Year Y
+
