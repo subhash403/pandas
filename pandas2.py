@@ -36,6 +36,28 @@ print(df.isnull().sum())
 # For Drop the None/na Values by using dropna
 print(df.dropna())
 
+# For getting thespecific value from table
+print(df.loc['2020-06-15','A'])
+print(df.loc['2020-06-15',['A','B']])
+print(df.iloc[0,0:2])
+print(df.iloc[0:6,0:2])
+#
+print(df.iloc[0:7:2,0:3])
+
+#
+
+print(df.iloc[[0,1,5,6,8],:2])
+# For Negative indexing
+print(df.iloc[0:6,-3:-5:-1])
+print("required values")
+print(df.iloc[0:8:2,:-4:-2])
+print(df.iloc[-1:-8:-2,-2:-5:-2])
+# For Printing the Columns of the table
+print(df.columns)
+
+print(df.drop(columns=['A','D']))
+
+
 # If you want to drop the Entire Column you can use df.dropna(axis=1) then it will delete the entire column
 #df.value_counts()
 print(df.corr())
@@ -51,3 +73,4 @@ print(df.describe())
 #df.loc(row,col)
 
 # loc is for location and iloc is for indexed location
+#df.loc[]
