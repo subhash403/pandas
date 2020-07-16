@@ -23,3 +23,11 @@ Advantages:
 ##### pd.date_range(date,period,frequency)
 For Frequency we can give the Day D Month M Year Y
 
+# For Merging 
+pd.merge(left, right, how, on, left_on, right_on)
+
+#Joiners in pandas
+
+    Full outer join
+    Left outer join
+    Right Outer join
