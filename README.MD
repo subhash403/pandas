@@ -31,3 +31,31 @@ pd.merge(left, right, how, on, left_on, right_on)
     Full outer join
     Left outer join
     Right Outer join
+ 
+#  Functions
+
+    Tables -- pipe()
+    Row/Column wise  --- apply()
+ 
+ # Loadin the data from file 
+ 
+ read_csv
+ 
+ By default Header is taking 0 
+ 
+     header=None then it will create the header
+     prefix will add header before 
+     verbose gives the rsult/debugitime 
+     nrows
+     skipfooter
+     skipheader
+     usecols
+     read_table() 
+     read_excel()
+     
+ when ever the data has mutiple seperators we can use 
+        
+        sep='\s+'
+ 
+ 
+      
